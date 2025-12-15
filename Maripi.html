@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Acompáñanos en el matrimonio de Alan y María Paz. Detalles de fecha, ubicación y datos para la luna de miel." />
+  <meta name="theme-color" content="#0b7a5a" />
+  <title>Matrimonio Alan &amp; María Paz</title>
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Matrimonio Alan &amp; María Paz" />
+  <meta property="og:description" content="Acompáñanos en el matrimonio de Alan y María Paz." />
+  <meta property="og:locale" content="es_CL" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:image" content="Gemini_Generated_Image_pt925xpt925xpt92%20%283%29.png" />
+  <meta name="twitter:image" content="Gemini_Generated_Image_pt925xpt925xpt92%20%283%29.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <!-- Preload decor and gallery images for direct, fast loading -->
+  <link rel="preload" as="image" href="assets/decor/vines-corner.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="assets/decor/vines-frame.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="assets/decor/paper.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="assets/regalos/luna.png" type="image/png">
+  <link rel="preload" as="image" href="assets/regalos/cena.png" type="image/png">
+  <link rel="preload" as="image" href="assets/regalos/noche.png" type="image/png">
+  <link rel="preload" as="image" href="assets/regalos/aventura.png" type="image/png">
+  <style>
+    :root{
+      --bg: #e8f6f0;          /* verde pastel suave */
+      --card: #e6f5efcc;      /* verde muy claro translúcido */
+      --text: #0f2d23;        /* verde muy oscuro para texto */
+      --gold: #b38b2e;        /* (legacy) */
+      --emerald: #0b7a5a;     /* verde esmeralda */
+      --accent: var(--emerald);
+      --radius: 18px;
+      --shadow: 0 10px 26px rgba(0,0,0,.08);
+      --space: 16px;
+    }
+
+    body{
+      margin: 0;
+      font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background:
+        radial-gradient(1200px 800px at -10% -20%, #f3fbf7, transparent),
+        radial-gradient(900px 600px at 110% 0%, #e3f6ee, transparent),
+        var(--bg);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .wrap{
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 28px var(--space) 64px;
+      position: relative;
+      z-index: 1;
+    }
+
+    header{
+      text-align: center;
+      padding: 18px 12px 10px;
+    }
+
+    h1{
+      margin: 8px 0 6px;
+      font-family: "Playfair Display", Georgia, serif;
+      font-size: clamp(34px, 4vw, 56px);
+      letter-spacing: 0.2px;
+      line-height: 1.1;
+    }
+
+    h2{ font-family: "Playfair Display", Georgia, serif; }
+
+    .subtitle{
+      margin: 0;
+      font-size: 16px;
+      opacity: .9;
+    }
+
+    .gold{ color: var(--accent); font-weight: 700; }
+
+    .divider{
+      width: 90px;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--emerald), transparent);
+      margin: 12px auto 0;
+      border-radius: 2px;
+    }
+
+    .grid{
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    @media (min-width: 780px){
+      .grid{ grid-template-columns: 1fr 1fr; }
+      .span2{ grid-column: span 2; }
+    }
+
+    .card{
+      background: var(--card);
+      border: 3px solid var(--emerald);
+      border-radius: var(--radius);
+      padding: 18px var(--space) 16px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(6px);
+      /* Efecto papel suave en tarjetas */
+      background-image: url('assets/decor/paper.svg');
+      background-size: 300px 300px;
+      background-repeat: repeat;
+    }
+
+    .card h2{ margin: 0 0 10px; font-size: 18px; }
+    .row{ margin: 8px 0; line-height: 1.35; }
+    .label{ font-weight: 800; }
+
+    .btns{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    button, a.btn{
+      border: 0;
+      border-radius: 8px;
+      padding: 10px 12px;
+      cursor: pointer;
+      font-weight: 700;
+      background: var(--emerald);
+      color: white;
+      transition: transform .15s ease, filter .15s ease, box-shadow .15s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    button:hover, a.btn:hover{ transform: translateY(-1px); filter: brightness(1.05); }
+    button:active, a.btn:active{ transform: translateY(0); filter: brightness(0.98); }
+    button:focus-visible, a.btn:focus-visible{ outline: 3px solid rgba(11,122,90,.4); outline-offset: 2px; }
+
+    button.alt, a.btn.alt{
+      background: rgba(11,122,90,0.08);
+      color: var(--emerald);
+      outline: 2px solid var(--emerald);
+    }
+
+    /* Marco decorativo tipo enredaderas */
+    .decor-vines{ position: fixed; inset: 0; pointer-events: none; z-index: 0; }
+    .decor-vines::before,
+    .decor-vines::after{
+      content: "";
+      position: absolute;
+      width: min(26vw, 260px);
+      height: min(26vw, 260px);
+      background: url('assets/decor/vines-corner.svg') no-repeat center / contain;
+      filter: drop-shadow(0 4px 10px rgba(0,0,0,.06));
+      opacity: .9;
+    }
+    .decor-vines::before{ top: 8px; left: 8px; }
+    .decor-vines::after{ top: 8px; right: 8px; transform: scaleX(-1); }
+    .decor-vines.b::before,
+    .decor-vines.b::after{
+      content: "";
+      position: absolute;
+      width: min(26vw, 260px);
+      height: min(26vw, 260px);
+      background: url('assets/decor/vines-corner.svg') no-repeat center / contain;
+      filter: drop-shadow(0 -2px 10px rgba(0,0,0,.04));
+      opacity: .9;
+    }
+    .decor-vines.b::before{ bottom: 8px; left: 8px; transform: scaleY(-1); }
+    .decor-vines.b::after{ bottom: 8px; right: 8px; transform: scale(-1, -1); }
+
+    /* Fondo extra: marco, ornamentos y textura sutil */
+    .decor-frame{ position: fixed; inset: 0; pointer-events: none; z-index: 0; background: url('assets/decor/vines-frame.svg') center / cover no-repeat; opacity: .65; }
+    .bg-ornaments{ position: fixed; inset: 0; pointer-events: none; z-index: 0; }
+    .bg-ornaments::before,
+    .bg-ornaments::after{
+      content: "";
+      position: absolute;
+      width: 60vw; height: 60vw;
+      background: radial-gradient(closest-side, rgba(11,122,90,.12), transparent 70%);
+      opacity: .7;
+    }
+    .bg-ornaments::before{ top: -20vw; left: -10vw; }
+    .bg-ornaments::after{ bottom: -25vw; right: -15vw; }
+    .bg-texture{ position: fixed; inset: 0; pointer-events: none; z-index: 0; opacity: .25; background-image: radial-gradient(rgba(15,45,35,.08) 0.5px, transparent 0.5px); background-size: 18px 18px; }
+
+    /* Regalos */
+    .gift-grid{ display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; }
+    .gift figure{ margin:0 0 8px; background: #eefaf5; border: 2px solid rgba(11,122,90,0.25); border-radius: 12px; padding: 8px; }
+    .gift img{
+      display:block;
+      width: 100%;
+      height: 120px;
+      object-fit: contain;
+      border-radius: 8px;
+      background: #f7fbf9;
+    }
+    .gift figcaption{ margin-top: 8px; font-weight: 800; font-size: 14px; }
+    .gift .desc{ margin: 6px 0 0; font-size: 13px; opacity:.95; }
+    .gift .btns{ margin-top: 10px; }
+
+    /* Sprigs: discretas ramas colocadas en el fondo */
+    .leaf-sprigs{ position: fixed; inset: 0; pointer-events: none; z-index: 0; opacity: .35; }
+    .leaf-sprigs{
+      background-image:
+        url('assets/decor/vines-corner.svg'),
+        url('assets/decor/vines-corner.svg'),
+        url('assets/decor/vines-corner.svg');
+      background-repeat: no-repeat;
+      background-size: 140px 140px, 180px 180px, 120px 120px;
+      background-position:
+        8% 28%,
+        92% 56%,
+        12% 82%;
+    }
+
+    /* Crest: monograma sobrio en el header */
+    .hero-crest{
+      width: 92px; height: 92px; margin: 14px auto 0; border-radius: 50%;
+      display: grid; place-items: center;
+      border: 2px solid var(--emerald);
+      background: linear-gradient(180deg, #ffffffcc, #ffffffa6);
+      box-shadow: 0 6px 18px rgba(0,0,0,.06);
+      color: var(--emerald);
+    }
+    .hero-crest .letters{ font-family: "Playfair Display", Georgia, serif; font-size: 28px; font-weight: 700; letter-spacing: .5px; }
+    .hero-crest .amp{ font-size: 16px; margin: 0 4px; opacity: .9; }
+
+    /* Presencia sutil extra en tarjetas */
+    .card{ box-shadow: var(--shadow), inset 0 1px 0 rgba(255,255,255,.35); }
+
+    @media (prefers-reduced-motion: reduce){ *{ transition: none !important; } }
+
+    @media print{
+      .btns, button, a.btn, .divider{ display:none !important; }
+      .card{ background: white; border-color: #999; backdrop-filter:none; box-shadow:none; }
+      body{ background:white; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="decor-vines" aria-hidden="true"></div>
+  <div class="decor-vines b" aria-hidden="true"></div>
+  <div class="decor-frame" aria-hidden="true"></div>
+  <div class="bg-ornaments" aria-hidden="true"></div>
+  <div class="bg-texture" aria-hidden="true"></div>
+  <div class="leaf-sprigs" aria-hidden="true"></div>
+  <div class="wrap">
+    <header>
+      <p class="subtitle">Con mucha alegría te invitamos a nuestro</p>
+      <h1><span class="gold">Alan Patricio Yañez Videla</span> &amp; <span class="gold">María Paz Herrera Soto</span></h1>
+      <p class="subtitle">Matrimonio · <b><time datetime="2026-03-14">14 de marzo de 2026</time></b></p>
+      <div class="divider" aria-hidden="true"></div>
+      <div class="hero-crest" aria-hidden="true"><span class="letters">A<span class="amp">&amp;</span>M</span></div>
+    </header>
+    
+
+    <main>
+    <section class="grid" aria-label="Detalles del matrimonio">
+      <div class="card">
+        <h2 class="gold">📅 Fecha y horarios</h2>
+        <div class="row"><span class="label">Fecha:</span> <time datetime="2026-03-14">14 de marzo de 2026</time></div>
+        <div class="row"><span class="label">Llegada desde:</span> <time datetime="18:20">18:20</time></div>
+        <div class="row"><span class="label">Ceremonia:</span> <time datetime="19:00">19:00</time></div>
+        <div class="row small">Te recomendamos llegar con tiempo para estacionar y ubicarse con calma.</div>
+        <div class="btns">
+          <a class="btn alt" target="_blank" rel="noopener noreferrer" aria-label="Añadir al calendario de Google"
+             href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Matrimonio%20Alan%20%26%20Mar%C3%ADa%20Paz&dates=20260314T220000Z/20260315T030000Z&details=Ceremonia%20a%20las%2019%3A00.%20Te%20esperamos%20%F0%9F%8C%BF&location=Verde%20de%20Lonqu%C3%A9n%2C%20Ruta%20G-30%209680%2C%20Calera%20de%20Tango%2C%20Regi%C3%B3n%20Metropolitana">
+            Añadir al calendario
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2 class="gold">📍 Ubicación</h2>
+        <div class="row"><span class="label">Dirección:</span> Verde de Lonquén, Ruta G-30 9680, 9560180, Calera de Tango, Región Metropolitana</div>
+        <div class="btns">
+          <a class="btn" target="_blank" rel="noopener noreferrer"
+             href="https://www.google.com/maps/search/?api=1&query=Verde+de+Lonquen+Ruta+G-30+9680+Calera+de+Tango">
+            Abrir en Google Maps
+          </a>
+          <button type="button" class="alt" aria-label="Copiar dirección" onclick="copyText('Verde de Lonquén, Ruta G-30 9680, 9560180, Calera de Tango, Región Metropolitana')">
+            Copiar dirección
+          </button>
+        </div>
+      </div>
+
+      <div class="card span2">
+        <h2 class="gold">🎁 Regalo / Luna de miel</h2>
+        <div class="row">
+          Tu presencia es lo más importante 💚  
+          Si quieres ayudarnos con nuestra luna de miel, dejamos los datos a continuación.
+        </div>
+
+        <div class="row"><span class="label">Titular:</span> Maria Paz Loreto Herrera Soto</div>
+        <div class="row"><span class="label">RUT:</span> 16.086.607-1</div>
+        <div class="row"><span class="label">Banco:</span> Mercado Pago</div>
+        <div class="row"><span class="label">Tipo:</span> Cuenta vista</div>
+        <div class="row"><span class="label">N° de cuenta:</span> 1087548519</div>
+        <div class="row"><span class="label">Correo:</span> Mariapazherrerasoto119@gmail.com</div>
+
+        <div class="btns">
+          <button type="button" aria-label="Copiar datos de transferencia" onclick="copyText('Titular: Maria Paz Loreto Herrera Soto\\nRUT: 16.086.607-1\\nBanco: Mercado Pago\\nCuenta vista: 1087548519\\nCorreo: Mariapazherrerasoto119@gmail.com')">
+            Copiar datos de transferencia
+          </button>
+          <button type="button" class="alt" aria-label="Copiar número de cuenta" onclick="copyText('1087548519')">Copiar N° de cuenta</button>
+        </div>
+
+        <div class="row small">*Si transfieres, puedes poner en el comentario tu nombre para poder agradecerte 💚</div>
+      </div>
+
+      <div class="card span2">
+        <h2 class="gold">🎨 Regalos representativos</h2>
+        <div class="row">Una forma simbólica y entretenida de aportar a nuestra luna de miel. Elige un "regalo" y copiaremos los datos con ese concepto.</div>
+        <div class="gift-grid" role="list">
+          <article class="gift" role="listitem">
+            <figure>
+              <img src="assets/regalos/luna.png" alt="Entrada para un viaje a la luna" loading="lazy" width="240" height="120">
+              <figcaption>Entrada para un viaje a la luna</figcaption>
+            </figure>
+            <p class="desc">Un detalle espacial para despegar la aventura. Sugerencia: desde $30.000.</p>
+            <div class="btns">
+              <button type="button" onclick="copyTransfer('Entrada para un viaje a la luna')">Aportar con este regalo</button>
+            </div>
+          </article>
+
+          <article class="gift" role="listitem">
+            <figure>
+              <img src="assets/regalos/cena.png" alt="Cena romántica" loading="lazy" width="240" height="120">
+              <figcaption>Cena romántica</figcaption>
+            </figure>
+            <p class="desc">Para brindar por este nuevo comienzo. Sugerencia: desde $30.000.</p>
+            <div class="btns">
+              <button type="button" onclick="copyTransfer('Cena romántica')">Aportar con este regalo</button>
+            </div>
+          </article>
+
+          <article class="gift" role="listitem">
+            <figure>
+              <img src="assets/regalos/noche.png" alt="Noche de hotel" loading="lazy" width="240" height="120">
+              <figcaption>Noche de hotel</figcaption>
+            </figure>
+            <p class="desc">Un descanso soñado para recargar energías. Sugerencia: desde $30.000.</p>
+            <div class="btns">
+              <button type="button" onclick="copyTransfer('Noche de hotel')">Aportar con este regalo</button>
+            </div>
+          </article>
+
+          <article class="gift" role="listitem">
+            <figure>
+              <img src="assets/regalos/aventura.png" alt="Aventura sorpresa" loading="lazy" width="240" height="120">
+              <figcaption>Aventura sorpresa</figcaption>
+            </figure>
+            <p class="desc">Para sumar emoción al viaje. Sugerencia: desde $30.000.</p>
+            <div class="btns">
+              <button type="button" onclick="copyTransfer('Aventura sorpresa')">Aportar con este regalo</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    </main>
+
+    <footer>
+      <div>¡Gracias por acompañarnos en este día tan especial! 🌿</div>
+    </footer>
+  </div>
+
+  <script>
+    function copyText(text){
+      navigator.clipboard.writeText(text).then(() => {
+        alert("Copiado ✅");
+      }).catch(() => {
+        prompt("Copia manualmente:", text);
+      });
+    }
+
+    function copyTransfer(concepto){
+      const detalles = [
+        'Titular: Maria Paz Loreto Herrera Soto',
+        'RUT: 16.086.607-1',
+        'Banco: Mercado Pago',
+        'Cuenta vista: 1087548519',
+        'Correo: Mariapazherrerasoto119@gmail.com',
+        `Concepto: ${concepto}`
+      ].join('\n');
+      copyText(detalles);
+    }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Matrimonio Alan & María Paz",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "startDate": "2026-03-14T19:00:00-03:00",
+    "location": {
+      "@type": "Place",
+      "name": "Verde de Lonquén",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Ruta G-30 9680",
+        "addressLocality": "Calera de Tango",
+        "addressRegion": "RM",
+        "postalCode": "9560180",
+        "addressCountry": "CL"
+      }
+    },
+    "description": "Matrimonio de Alan y María Paz. Detalles de fecha, ubicación y luna de miel.",
+    "organizer": {"@type": "Person", "name": "Alan & María Paz"}
+  }
+  </script>
+</body>
+</html>
+
